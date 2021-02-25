@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-design-patterns", "csharp-design-patterns\csharp-design-patterns.csproj", "{E4A3865B-4269-4A25-9188-AD1675C8C957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-document", "abstract-document\abstract-document.csproj", "{1614AEDF-CFAC-493E-850F-E9F1CE079B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4A3865B-4269-4A25-9188-AD1675C8C957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A3865B-4269-4A25-9188-AD1675C8C957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A3865B-4269-4A25-9188-AD1675C8C957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A3865B-4269-4A25-9188-AD1675C8C957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
