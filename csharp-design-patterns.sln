@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-design-patterns", "c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-document", "abstract-document\abstract-document.csproj", "{1614AEDF-CFAC-493E-850F-E9F1CE079B86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-factory", "abstract-factory\abstract-factory.csproj", "{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1614AEDF-CFAC-493E-850F-E9F1CE079B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
