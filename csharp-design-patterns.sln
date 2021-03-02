@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-document", "abstra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-factory", "abstract-factory\abstract-factory.csproj", "{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "acyclic-visitor", "acyclic-visitor\acyclic-visitor.csproj", "{4A170DCF-B1D8-4D9E-81D2-9B6EBD65B4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D69C1FEF-CEB5-4FF9-A0DE-C5946B88F008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A170DCF-B1D8-4D9E-81D2-9B6EBD65B4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A170DCF-B1D8-4D9E-81D2-9B6EBD65B4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A170DCF-B1D8-4D9E-81D2-9B6EBD65B4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A170DCF-B1D8-4D9E-81D2-9B6EBD65B4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
