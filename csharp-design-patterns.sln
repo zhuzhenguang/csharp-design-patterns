@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory-microservice", "a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aggregator-service-test", "aggregator-microservices\aggregator-service-test\aggregator-service-test.csproj", "{BF383033-5AF4-42BD-9458-16ED7D0116BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "information-microservice-test", "aggregator-microservices\information-microservice-test\information-microservice-test.csproj", "{B9A00159-A2DB-4FC2-9679-4C67FE2E593D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,11 +64,16 @@ Global
 		{BF383033-5AF4-42BD-9458-16ED7D0116BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF383033-5AF4-42BD-9458-16ED7D0116BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF383033-5AF4-42BD-9458-16ED7D0116BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A00159-A2DB-4FC2-9679-4C67FE2E593D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A00159-A2DB-4FC2-9679-4C67FE2E593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A00159-A2DB-4FC2-9679-4C67FE2E593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A00159-A2DB-4FC2-9679-4C67FE2E593D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
 		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
 		{E3B217CB-59C0-4289-A302-D633615613B3} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
 		{BF383033-5AF4-42BD-9458-16ED7D0116BE} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
+		{B9A00159-A2DB-4FC2-9679-4C67FE2E593D} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
 	EndGlobalSection
 EndGlobal
