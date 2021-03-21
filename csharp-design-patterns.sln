@@ -10,6 +10,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "acyclic-visitor", "acyclic-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapter", "adapter\adapter.csproj", "{A7A1051D-8BBB-4FB7-AD8F-7DA18AA17442}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aggregator-microservices", "aggregator-microservices", "{9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aggregator-service", "aggregator-microservices\aggregator-service\aggregator-service.csproj", "{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "information-microservice", "aggregator-microservices\information-microservice\information-microservice.csproj", "{2D6EC436-EBC0-43DB-B521-FBAD9A21538D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory-microservice", "aggregator-microservices\inventory-microservice\inventory-microservice.csproj", "{E3B217CB-59C0-4289-A302-D633615613B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +44,22 @@ Global
 		{A7A1051D-8BBB-4FB7-AD8F-7DA18AA17442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A1051D-8BBB-4FB7-AD8F-7DA18AA17442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A1051D-8BBB-4FB7-AD8F-7DA18AA17442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B217CB-59C0-4289-A302-D633615613B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B217CB-59C0-4289-A302-D633615613B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B217CB-59C0-4289-A302-D633615613B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B217CB-59C0-4289-A302-D633615613B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C52776F1-DAE5-4DEF-9708-0AF98A2A3A86} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
+		{2D6EC436-EBC0-43DB-B521-FBAD9A21538D} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
+		{E3B217CB-59C0-4289-A302-D633615613B3} = {9454A304-5DC2-4F3E-B4CC-AC2EEAAE0DD6}
 	EndGlobalSection
 EndGlobal
